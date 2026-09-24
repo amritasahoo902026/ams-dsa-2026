@@ -7,14 +7,15 @@ public class UniquePath
 
         int m = 2;
         int n = 4;
-        int row=m-1;
-        int column=n-1;
-        int[][] dp=new int[m][n];
-        System.out.println(uniuePaths(row,column,m, n));
-        System.out.println(memoization(row,column,m, n,dp));
-        System.out.println(tabulation(row,column,m, n,dp));
+        int row = m - 1;
+        int column = n - 1;
+        int[][] dp = new int[m][n];
+        System.out.println(uniuePaths(row, column, m, n));
+        System.out.println(memoization(row, column, m, n, dp));
+        System.out.println(tabulation(row, column, m, n, dp));
 
     }
+
 
     private static int uniuePaths(int row, int column, int m, int n) {
         // TODO Auto-generated method stub
